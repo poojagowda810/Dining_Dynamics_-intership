@@ -1,0 +1,89 @@
+
+
+.about-heading {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    color: #333333;
+    font-size: 36px;
+    margin-top: 300px;
+    color: rgb(43, 132, 192);
+   
+  }
+   
+  .background-image {
+    background-size: cover;
+    background-position: center;
+    height: 80vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+  
+  .about-content {
+    display: flex;
+    justify-content: space-between; /* Change to space-between for alignment */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px; /* Adjust padding if needed */
+    box-shadow: none; /* Remove shadow */
+    background-color: transparent; /* Remove background color */
+  }
+  .image-content {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .image-content img {
+    max-width: 100%;
+    border-radius: 10px; /* Optional: Rounded corners for the image */
+  }
+  
+  .text-content {
+    flex: 1;
+    text-align: left;
+    padding-left: 20px; 
+    /* Adjust spacing between image and text */
+  }
+  
+  .text-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #b8860b; /* Golden color */
+    font-family: 'Your Unique Font', sans-serif; /* Specify your unique font family */
+  }
+  
+  .text-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .text-content p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .additional-content {
+    margin-top: 40px; /* Adjust margin-top as needed */
+    text-align: center;
+  }
+  
+  .additional-content h1 {
+    font-size: 28px; /* Adjust font size as needed */
+    color: #4d2600; /* Dark brown color */
+  }
+  
+  .additional-content p {
+    font-size: 16px; /* Adjust font size as needed */
+    line-height: 1.8;
+    text-align: center;
+  }
+  
+  .additional-content h2 {
+    font-size: 20px; /* Adjust font size as needed */
+    color: #666666; /* Gray color */
+    margin-top: 10px; /* Adjust margin-top as needed */
+  }

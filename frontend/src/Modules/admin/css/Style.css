@@ -1,0 +1,57 @@
+.nav {
+    /* background-color: #ffffff; */
+    box-shadow: none;
+}
+
+.sidebar-body {
+    background-color: #121621;
+    height: 100vh;
+    color: white;
+    font-size: 28px;
+
+}
+
+.sidebar-item:hover{
+    /* color: #1abc9c; */
+    /* color: #DAFFFB; */
+  }
+.sidebar-list:hover{
+    /* color: #1abc9c; */
+    color: #DAFFFB;
+    background-color:'red';
+  }
+  
+  .sidebar-item.active {
+    /* color: #1abc9c; */
+    color: #5C8374;
+    border: 1px solid;
+    border-radius: 10px;
+    padding-left: 10px;
+  }
+
+
+
+
+
+  /* Hide scrollbar track */
+::-webkit-scrollbar {
+    width: 8px; /* width of the scrollbar */
+  }
+  
+  /* Track (the background of the scrollbar) */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* color of the track */
+  }
+  
+  /* Handle (the draggable part of the scrollbar) */
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* color of the handle */
+    border-radius: 40px;
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* color of the handle when hovering */
+  }
+  
